@@ -39,8 +39,7 @@ The source data used by this project, including `data/edition-mapping.json`, was
 - `index.html` - the static web page and styles.
 - `src/index.mjs` - the browser-side JavaScript that loads compatibility data and renders the table.
 - `data/edition-mapping.json` - the ECMAScript editions, feature groups, descriptions, and MDN Browser Compat Data paths used by the table.
-
-There is no build step and no package install required.
+- `AGENTS.md` - instructions for updating `data/edition-mapping.json` with an LLM using TC39 and MDN Browser Compat Data sources.
 
 ## Why This Helps With TypeScript
 
